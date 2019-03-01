@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "allowJs": true,
+      "moduleResolution": "node",
+      "target": "ES5",
+      "module": "esnext",
+      "jsx": "react",
+      "baseUrl": ".",
+      "esModuleInterop": true,
+      "paths": {
+          "@app/*": ["*"]
+      },
+      "experimentalDecorators": true,
+      "lib": [
+          "dom",
+          "es2015",
+          "es2015.promise"
+      ]
+    },
+      "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "stories"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+      "transpileOnly": true
+    }
+  }
